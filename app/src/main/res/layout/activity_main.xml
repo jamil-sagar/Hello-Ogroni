@@ -12,7 +12,7 @@
         android:id="@+id/cardView"
         android:layout_width="@dimen/_70sdp"
         android:layout_height="@dimen/_70sdp"
-        app:cardBackgroundColor="#FFD600"
+        app:cardBackgroundColor="#872657"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -316,14 +316,14 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginTop="@dimen/_13sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         android:layout_marginStart="@dimen/_13sdp"
         app:layout_constraintStart_toEndOf="@+id/cardView12"
         app:layout_constraintTop_toTopOf="@+id/cardView12" >
 
         <TextView
-            android:id="@+id/one_position"
+            android:id="@+id/onePositionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -339,13 +339,14 @@
         android:id="@+id/cardView2"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         android:layout_marginBottom="@dimen/_13sdp"
         android:layout_marginEnd="@dimen/_13sdp"
         app:layout_constraintBottom_toTopOf="@+id/cardView3"
         app:layout_constraintEnd_toEndOf="@+id/cardView3" >
         <TextView
+            android:id="@+id/twoPositionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
@@ -362,13 +363,14 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginStart="@dimen/_50sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintStart_toEndOf="@+id/cardView"
         app:layout_constraintTop_toTopOf="@+id/cardView" >
 
         <TextView
+            android:id="@+id/threePositionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
@@ -383,7 +385,7 @@
         android:id="@+id/cardView4"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         android:layout_marginEnd="@dimen/_13sdp"
         android:layout_marginTop="@dimen/_13sdp"
@@ -391,6 +393,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView3" >
 
         <TextView
+            android:id="@+id/fourPositionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4"
@@ -408,7 +411,7 @@
         android:layout_height="@dimen/_40sdp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintStart_toEndOf="@+id/cardView6">
@@ -431,7 +434,7 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginTop="@dimen/_50sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
         app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -454,7 +457,7 @@
         android:id="@+id/cardView7"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         android:layout_marginEnd="@dimen/_13sdp"
         android:layout_marginBottom="@dimen/_13sdp"
@@ -480,7 +483,7 @@
         android:layout_height="@dimen/_40sdp"
         android:layout_marginStart="@dimen/_13sdp"
         android:layout_marginTop="@dimen/_13sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintStart_toStartOf="@+id/cardView9"
         app:layout_constraintTop_toBottomOf="@+id/cardView9"
@@ -504,7 +507,7 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginEnd="@dimen/_50sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintEnd_toStartOf="@+id/cardView"
@@ -529,7 +532,7 @@
         android:layout_height="@dimen/_40sdp"
         android:layout_marginStart="@dimen/_13sdp"
         android:layout_marginBottom="@dimen/_13sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toTopOf="@+id/cardView9"
         app:layout_constraintStart_toStartOf="@+id/cardView9" >
@@ -554,7 +557,7 @@
         android:layout_height="@dimen/_40sdp"
         android:layout_marginTop="@dimen/_13sdp"
         android:layout_marginEnd="@dimen/_13sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintEnd_toStartOf="@+id/cardView12"
         app:layout_constraintTop_toTopOf="@+id/cardView12">
@@ -577,7 +580,7 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginBottom="@dimen/_50sdp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="#006400"
         app:cardCornerRadius="@dimen/_40sdp"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -597,7 +600,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="30"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -609,7 +612,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="60"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -620,7 +623,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="90"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -631,7 +634,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="120"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -642,7 +645,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="150"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -653,7 +656,7 @@
     <View
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_2sdp"
-        android:background="@color/black"
+        android:background="#0d75f8"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="@+id/cardView6"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
@@ -664,7 +667,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_50sdp"
-        app:cardBackgroundColor="#0091EA"
+        app:cardBackgroundColor="#2e39bf"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent" >
 

@@ -36,23 +36,33 @@ public class MainActivity extends AppCompatActivity {
         list.add("Twelfth position");
     }
 
+//    public void runOne(View view) {
+//        binding.middleNumber.setText("1");
+//        binding.footerTxt.setText(list.get(0));
+//    }
+
+
     public void runOne(View view) {
-        binding.middleNumber.setText("1");
+        String onePos = binding.onePositionTxt.getText().toString();
+        binding.middleNumber.setText(onePos);
         binding.footerTxt.setText(list.get(0));
     }
 
     public void runTwo(View view) {
-        binding.middleNumber.setText("2");
+        String twoPos = binding.twoPositionTxt.getText().toString();
+        binding.middleNumber.setText(twoPos);
         binding.footerTxt.setText(list.get(1));
     }
 
     public void runThree(View view) {
-        binding.middleNumber.setText("3");
+        String threePos = binding.threePositionTxt.getText().toString();
+        binding.middleNumber.setText(threePos);
         binding.footerTxt.setText(list.get(2));
     }
 
     public void runFour(View view) {
-        binding.middleNumber.setText("4");
+        String fourPos = binding.fourPositionTxt.getText().toString();
+        binding.middleNumber.setText(fourPos);
         binding.footerTxt.setText(list.get(3));
     }
 
