@@ -2,6 +2,8 @@ package com.hello.ogroni.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -36,10 +38,12 @@ public class MainActivity extends AppCompatActivity {
         list.add("Twelfth position");
     }
 
-//    public void runOne(View view) {
-//        binding.middleNumber.setText("1");
-//        binding.footerTxt.setText(list.get(0));
-//    }
+    /*
+    public void runOne(View view) {
+        binding.middleNumber.setText("1");
+        binding.footerTxt.setText(list.get(0));
+    }
+    */
 
 
     public void runOne(View view) {
@@ -112,5 +116,10 @@ public class MainActivity extends AppCompatActivity {
         String twelvePos = binding.twelvePositionTxt.getText().toString();
         binding.middleNumber.setText(twelvePos);
         binding.footerTxt.setText(list.get(11));
+    }
+
+    public void CallNow(View view) {
+        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", binding.middleNumber.getText().toString(), null));
+        startActivity(intent);
     }
 }

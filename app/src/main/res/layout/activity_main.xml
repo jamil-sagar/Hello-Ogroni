@@ -14,20 +14,20 @@
         android:layout_height="@dimen/_70sdp"
         app:cardBackgroundColor="#872657"
         app:cardCornerRadius="@dimen/_40sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cardView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/middle_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="0"
-            android:textStyle="bold"
-            android:textSize="@dimen/_24sdp"
             android:textColor="@color/white"
-            android:layout_gravity="center"/>
+            android:textSize="@dimen/_24sdp"
+            android:textStyle="bold" />
 
     </androidx.cardview.widget.CardView>
 
@@ -664,19 +664,48 @@
         app:layout_constraintTop_toTopOf="@+id/cardView12"
         />
 
+
     <androidx.cardview.widget.CardView
+        android:id="@+id/callnow"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:onClick="CallNow"
+        app:cardBackgroundColor="#11BDB8"
+        app:layout_constraintBottom_toTopOf="@+id/cardView13"
+        app:layout_constraintEnd_toEndOf="@+id/cardView3"
+        app:layout_constraintStart_toStartOf="@+id/cardView9"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Call Now"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView13"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_50sdp"
-        app:cardBackgroundColor="#2e39bf"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent" >
+        app:cardBackgroundColor="#2e39bf"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <TextView
             android:id="@+id/footerTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome"
             android:layout_gravity="center"
+            android:text="Welcome"
             android:textColor="@color/white"
             android:textSize="@dimen/_14sdp" />
 
